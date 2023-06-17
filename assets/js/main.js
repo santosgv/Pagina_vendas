@@ -240,4 +240,9 @@ function botao(){
   var video = document.getElementById('frameVideo');
   video.autoplay= true;
   video.load(); 
+
+  setTimeout(function() {
+    document.getElementById('btn-buy').hidden = false;
+  }, 120000);
+
 }
